@@ -21,5 +21,10 @@ namespace FirstAppWF
         {
             MessageBox.Show("First App C#");
         }
+
+        private void pbOpenSource_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Lista de contato 1.0. \nEscrito por Charles Eduardo", "About");
+        }
     }
 }
